@@ -28,6 +28,11 @@
         }
     },
     "rules": {
+
+        "prettier/prettier": [
+            "error",
+            { "singleQuote": true }
+        ],
         // 可以定义react 编码规则
         "semi": [
             "error",
